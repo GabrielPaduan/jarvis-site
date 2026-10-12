@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JARVIS — política de privacidade</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>JARVIS</h1>
+  <h2>Política de privacidade</h2>
+  <p><em>Vigente desde 1º de outubro de 2026.</em></p>
+
+  <h3>Quem usa</h3>
+  <p>O JARVIS é usado só pelo próprio autor, nas contas Google dele. Não há outros usuários.</p>
+
+  <h3>Que dados são acessados</h3>
+  <ul>
+    <li>Gmail (somente leitura): remetente, assunto e texto das mensagens recebidas.</li>
+    <li>Google Classroom (somente leitura): cursos, tarefas, prazos, avisos, materiais e a situação
+      da entrega do próprio usuário.</li>
+    <li>Google Agenda (<code>calendar.events</code>): eventos da agenda principal. Hoje apenas
+      leitura; criar ou alterar um evento, quando existir, exigirá a aprovação explícita do usuário
+      a cada vez.</li>
+  </ul>
+
+  <h3>Como são usados</h3>
+  <p>Para montar um resumo diário (agenda, prazos e e-mails que pedem ação) mostrado só ao próprio
+    usuário. O texto dos e-mails é classificado em campos (categoria, prazo, tipo de ação) e depois
+    apagado; o resumo guarda apenas assunto e remetente, por até 30 dias.</p>
+
+  <h3>Onde ficam</h3>
+  <p>Num computador do usuário, com disco cifrado, acessível apenas pela rede privada dele. Os
+    tokens de acesso ficam cifrados e separados do restante do sistema.</p>
+
+  <h3>Compartilhamento</h3>
+  <p>Os dados não são vendidos nem compartilhados. Para classificar e redigir, trechos limitados
+    podem ser enviados à API do Google Gemini, conforme os termos da API; quando o modelo local
+    estiver habilitado, a classificação dos e-mails não sai do computador.</p>
+  <p>O uso de informações recebidas das APIs do Google segue a
+    <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services
+    User Data Policy</a>, incluindo os requisitos de uso limitado.</p>
+
+  <h3>Revogação</h3>
+  <p>O acesso pode ser revogado a qualquer momento em
+    <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>
+    ou pelo comando <code>jarvis disconnect</code>, que revoga o token e o apaga.</p>
+
+  <h3>Contato</h3>
+  <p>Pelo e-mail informado na tela de consentimento do app.</p>
+  <footer><a href="index.html">Início</a></footer>
+</body>
+</html>
