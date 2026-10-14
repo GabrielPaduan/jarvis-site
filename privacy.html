@@ -9,7 +9,8 @@
 <body>
   <h1>JARVIS</h1>
   <h2>Política de privacidade</h2>
-  <p><em>Vigente desde 1º de outubro de 2026.</em></p>
+  <p><em>Vigente desde 1º de outubro de 2026; atualizada em 14 de outubro de 2026 (onde os dados
+    ficam e uso do Gemini na classificação).</em></p>
 
   <h3>Quem usa</h3>
   <p>O JARVIS é usado só pelo próprio autor, nas contas Google dele. Não há outros usuários.</p>
@@ -30,13 +31,16 @@
     apagado; o resumo guarda apenas assunto e remetente, por até 30 dias.</p>
 
   <h3>Onde ficam</h3>
-  <p>Num computador do usuário, com disco cifrado, acessível apenas pela rede privada dele. Os
-    tokens de acesso ficam cifrados e separados do restante do sistema.</p>
+  <p>Num servidor do próprio usuário: uma máquina virtual no Google Cloud, nos Estados Unidos, com
+    disco cifrado pelo provedor e acessível apenas pela rede privada do usuário (nenhuma porta
+    aberta para a internet). Os tokens de acesso ficam cifrados, presos a esse servidor, e separados
+    do restante do sistema. O backup (sem tokens) fica num armazenamento do mesmo projeto.</p>
 
   <h3>Compartilhamento</h3>
-  <p>Os dados não são vendidos nem compartilhados. Para classificar e redigir, trechos limitados
-    podem ser enviados à API do Google Gemini, conforme os termos da API; quando o modelo local
-    estiver habilitado, a classificação dos e-mails não sai do computador.</p>
+  <p>Os dados não são vendidos nem compartilhados. Para classificar cada e-mail, o texto dele é
+    enviado à API do Google Gemini; para redigir o resumo, só os campos já classificados (assunto e
+    remetente cortados, prazos e eventos). Isso segue os termos da API. O servidor, o Gemini e as
+    contas lidas são todos do Google.</p>
   <p>O uso de informações recebidas das APIs do Google segue a
     <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services
     User Data Policy</a>, incluindo os requisitos de uso limitado.</p>
